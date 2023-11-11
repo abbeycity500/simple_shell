@@ -1,0 +1,4 @@
+TEST_SUITE
+allowed_functions
+runchecker.bash
+SIMPLE_SHELL_TEST_SUITE
