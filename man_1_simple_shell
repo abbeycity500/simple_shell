@@ -1,0 +1,36 @@
+.TH man 1 "28 August 2019" "0.1" "hsh man page"
+.SH NAME
+.B hsh
+- Simple shell based on the Bourne shell
+.SH SYNOPSIS
+.B hsh [file]
+.SH DESCRIPTION
+.B hsh
+is a simple command language interpreter that executes commands read from the standard input or from a file. Based on the Bourne shell.
+.SH BUILTIN COMMANDS
+.IP cd [directory]
+- changes the working directory. "cd" goes to home directory. "cd -" goes to previous directory
+.IP env
+- print the environment
+.IP setenv
+- set an environmental variable
+.IP unsetenv
+- deletes an environmental variable
+.IP exit [status]
+- exits the shell with no leaks
+.SH EXAMPLES
+.IP cd:
+cd directory/to/change/to
+.IP env:
+ env
+.IP setenv:
+setenv VARIABLENAME VALUE
+.IP unsetenv:
+unsetenv VARIABLENAME
+.IP exit:
+exit 127
+.SH BUGS
+No current bugs. If any bugs are found please email <jose.alvarez-de-lugo@holbertonschool.com> or <william.dyrlandmarquis@holbertonschool.com>
+.SH AUTHORS
+william Dyrland-Marquis
+Jose Alvarez de Lugo
